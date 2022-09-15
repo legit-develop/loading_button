@@ -30,12 +30,16 @@
   box-sizing: border-box;
   border: 5px solid rgb(0, 0, 0, 0.2);
   border-right-color: rgb(245, 239, 239);
-  /*animation: loading-animation 2s linear infinite;*/
+  animation: loading-animation 2s linear infinite;
 }
 
 #search-button h3 {
   margin: 0;
   padding: 0;
+}
+
+#search-button .loading * {
+  display: none;
 }
 
 @keyframes loading-animation {
